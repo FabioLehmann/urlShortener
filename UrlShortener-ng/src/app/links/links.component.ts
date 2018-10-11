@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./links.component.css']
 })
 export class LinksComponent implements OnInit {
-
+ title = 'UrlShortener-ng';
+	
   constructor() { }
 
   ngOnInit() {
