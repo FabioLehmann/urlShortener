@@ -22,7 +22,7 @@ export class LinkInputComponent implements OnInit {
 		var name = 'test';
   	  this.linksService.createUrl({ name } as Link)
         .subscribe(link => {
-          this.heroes.push(link);
+          this.links.push(link);
         });
 	  
 	
